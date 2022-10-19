@@ -1,4 +1,25 @@
 body {
-background-color: teal;
-
+    color:#212121;
+    background-color: #F5F5F5;
 }
+.list {
+    list-style: none;
+}
+.logo {
+    color: #000000;
+}
+
+.site-nav a {
+    color:#2196F3;
+}
+
+/* колір основного тексту #212121; */
+
+/* допоміжний колір тексту #757575;  */
+
+/*  білий колір #FFFFFF; */
+
+/* колір акцент #2196F3 */
+
+/* background: #2F303A; */
+/* колір logo #000000  та акцент #2196F3   */
