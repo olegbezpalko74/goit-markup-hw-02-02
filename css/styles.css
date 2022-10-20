@@ -1,42 +1,3 @@
-body {
-    color:#212121;
-    background-color: #F5F5F5;
-}
-.list {
-    list-style: none;
-    
-}
-.current {
-    color:#2196F3;
-}
-
-.logo {
-    color: #000000;
-    text-decoration: none;
-}
-
-.site-nav .link {
-    color:#212121;
-    text-decoration: none;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: #2196F3;
-}
-/* hero */
-.hero-title {
-    color: #FFFFFF;
-}
-
-
-.section {
-    color:#757575;
-}
-.section-title {
-    color: #212121;
-}
-
-
 /* колір основного тексту #212121; */
 
 /* допоміжний колір тексту #757575;  */
@@ -47,3 +8,56 @@ body {
 
 /* background: #2F303A; */
 /* колір logo #000000  та акцент #2196F3   */
+
+:root {
+    --primary-text-color: #757575; 
+    --title-text-color: #212121; 
+    --accent-color: #2196F3;
+    --hero-text-color: #FFFFFF;
+}
+
+body {
+    color:#212121;
+    background-color: #F5F5F5;
+}
+.list {
+    list-style: none;
+    
+}
+.current {
+    color:var(--accent-color);
+}
+
+.logo {
+    color: #000000;
+    text-decoration: none;
+}
+
+.site-nav .link {
+    color:var(--title-text-color);
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+/* hero */
+.hero-title {
+    color: var(--hero-text-color);
+    background-color: var(--title-text-color);
+}
+
+.section {
+    color:var(--primary-text-color);
+}
+.section-title {
+    color: var(--title-text-color);
+}
+.feature-list {
+    list-style: none;
+}
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+
