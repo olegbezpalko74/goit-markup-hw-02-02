@@ -42,9 +42,17 @@ body {
     color: var(--accent-color);
 }
 /* hero */
+.hero {
+    background-color: var(--title-text-color);
+
+}
 .hero-title {
     color: var(--hero-text-color);
-    background-color: var(--title-text-color);
+    
+}
+.button {
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
 }
 
 .section {
@@ -53,6 +61,7 @@ body {
 .section-title {
     color: var(--title-text-color);
 }
+/* feature */
 .feature-list {
     list-style: none;
 }
@@ -60,4 +69,30 @@ body {
     color: var(--title-text-color);
 }
 
+/* work */
+.work-list {
+    list-style: none;
+}
+/* team*/
+.team-list {
+    list-style: none;
+}
 
+.team-list .title {
+    color:var(--title-text-color) ;
+}
+/* footer */
+.footer {
+    background-color: var(--title-text-color);
+}
+
+
+/* contacts */
+.contacts {
+    list-style: none;
+}
+
+.contacts .link{
+    color:  var(--hero-text-color);
+    background-color: var(--title-text-color);
+}
