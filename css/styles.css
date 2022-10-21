@@ -19,6 +19,8 @@
 body {
     color:#212121;
     background-color: #F5F5F5;
+    text-align: center;
+
 }
 .list {
     list-style: none;
@@ -39,6 +41,14 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+    color: var(--accent-color);
+}
+.auth-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
     color: var(--accent-color);
 }
 /* hero */
@@ -89,7 +99,6 @@ body {
     color: var(--hero-text-color);
 }
 
-
 /* contacts */
 .contacts {
     list-style: none;
@@ -98,4 +107,14 @@ body {
 .contacts .link{
     color:  var(--hero-text-color);
     background-color: var(--title-text-color);
+    text-decoration: none;
+}
+/* portfolio */
+.list-nav .link {
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+.list-nav .link:hover,
+.list-nav .link:focus {
+    color: var(--accent-color);
 }
