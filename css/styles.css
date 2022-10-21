@@ -85,6 +85,9 @@ body {
 .footer {
     background-color: var(--title-text-color);
 }
+.footer-logo {
+    color: var(--hero-text-color);
+}
 
 
 /* contacts */
