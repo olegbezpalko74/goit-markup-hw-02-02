@@ -43,6 +43,10 @@ body {
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .auth-nav .link {
     color: var(--title-text-color);
     text-decoration: none;
