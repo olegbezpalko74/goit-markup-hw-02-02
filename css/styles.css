@@ -132,6 +132,7 @@ body {
     list-style: none;
 }
 .feature-list .title {
+    font-size: 14px;
     color: var(--title-text-color);
     font-weight: 700;
     line-height: 1.14;
@@ -206,6 +207,7 @@ body {
     font-size: 16px;
     line-height: 1.62;
     cursor: pointer;
+    letter-spacing: 0.03em;
     
 }
 .list .button:hover,
